@@ -32,6 +32,9 @@ apt install python3 -y
 apt install python3-pip -y
 ```
 
+```sh
+pip install subprocess.run
+```
 
 Tested on ubuntu 18.04 and 20.04.
 
