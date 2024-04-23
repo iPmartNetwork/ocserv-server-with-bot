@@ -1,2 +1,2 @@
-aiogram
-pexpect
+aiogram==2.15
+pexpect==4.8.0
