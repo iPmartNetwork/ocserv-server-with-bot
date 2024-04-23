@@ -27,7 +27,7 @@ git clone https://github.com/iPmartNetwork/Ocserv-server-with-bot.git
 ```
 cd to the directory
 ```sh
-cd ./ocserv-panel
+cd ./Ocserv-server-with-bot
 ```
 
 Making script executable
