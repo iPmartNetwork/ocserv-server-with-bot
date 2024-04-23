@@ -137,7 +137,7 @@ getidsbot(){
         # Check if bot.py exists
         if [ ! -f "bot.py" ]; then
           echo "Downloading bot.py from GitHub..."
-          curl -O "https://raw.githubusercontent.com/ipmartnetwork/Ocserv-server-with-bot/main/bot.py"
+          curl -O "https://raw.githubusercontent.com/ipmartnetwork/ocserv-server-with-bot/main/bot.py"
         fi
        screen -dmS bot_session bash -c "python3 ./bot.py" 
        sleep 2
@@ -155,7 +155,7 @@ else
     echo "requirements.txt file not found."
     sleep 2
     echo "Downloading bot.py from GitHub..."
-    curl -O "https://raw.githubusercontent.com/ipmartnetwork/Ocserv-server-with-bot/main/requirements.txt"
+    curl -O "https://raw.githubusercontent.com/ipmartnetwork/ocserv-server-with-bot/main/requirements.txt"
 
 fi
 
