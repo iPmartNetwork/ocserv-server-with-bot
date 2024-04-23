@@ -19,6 +19,20 @@
 
 
 ## نصب
+
+```sh
+apt update && apt upgrade -y
+```
+
+```sh
+apt install python3 -y
+```
+
+```sh
+apt install python3-pip -y
+```
+
+
 Tested on ubuntu 18.04 and 20.04.
 
 Download and saving script on your server:
