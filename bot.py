@@ -1,4 +1,3 @@
-import subprocess
 import pexpect
 from aiogram import Bot, Dispatcher, types
 from aiogram.contrib.middlewares.logging import LoggingMiddleware
