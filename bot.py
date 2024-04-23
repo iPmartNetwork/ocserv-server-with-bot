@@ -15,8 +15,8 @@ import os
 API_TOKEN = os.environ.get("BOT_TOKEN")
 authorized_users = int(os.environ.get("ADMIN_USER_ID"))
 
-# API_TOKEN = '5804393837:AAGe3FoDKoERInne-6_B_TRxEhwCDQrLwxo'
-# authorized_users = 1406499956
+# API_TOKEN = '7061991377:AAFerA2_N6htPslQAbifVRiclEENE_tTIJY'
+# authorized_users = 5987705584
 
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot)
