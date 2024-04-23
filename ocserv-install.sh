@@ -187,16 +187,6 @@ if [[ "$EUID" -ne 0 ]]; then
 fi
 
 cd ~
-echo "
-____________________________________________________________________________________
-        ____                             _     _                                     
-    ,   /    )                           /|   /                                  /   
--------/____/---_--_----__---)__--_/_---/-| -/-----__--_/_-----------__---)__---/-__-
-  /   /        / /  ) /   ) /   ) /    /  | /    /___) /   | /| /  /   ) /   ) /(    
-_/___/________/_/__/_(___(_/_____(_ __/___|/____(___ _(_ __|/_|/__(___/_/_____/___\__
-                                                                                     
-"
-echo "***** https://github.com/ipmartnetwork *****"
 
 PS3='Please enter your choice: '
 options=("Install" "Uninstall" "Add User" "Change Password" "Show Users" "Delete User" "Lock User" "Unlock User" "Telegram Bot" "Quit")
