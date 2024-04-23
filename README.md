@@ -23,7 +23,7 @@ Tested on ubuntu 18.04 and 20.04.
 
 Download and saving script on your server:
 ```sh
-git clone https://github.com/ipmartnetwork/ocserv-panel.git
+git clone https://github.com/iPmartNetwork/Ocserv-server-with-bot.git
 ```
 cd to the directory
 ```sh
